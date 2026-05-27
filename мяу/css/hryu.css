@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mozilla+Headline:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Mozilla Headline', sans-serif;
+    background-color: rgb(231, 242, 245);
+}
+
+body {
+    max-width: 800px;
+    place-items: center;
+    margin: auto;
+}
+
+.profile_container { 
+    background-color: white;
+    border-radius: 20px;
+    margin: 5%;
+    padding: 5px 5px 100px 5px; 
+}
+
+.head_img {
+    background-image: url('/images/P1140737.JPG');
+        background-size: cover;
+        background-position: center center;
+    border: solid black 2px;
+        border-radius: 20px 20px 0px 0px;
+    margin: 5px;
+
+    height: 250px;
+    width: auto;
+    object-fit: cover;
+}
+
+.avatar {
+    background-image: url('/images/photo_2026-05-25_12-57-00.jpg');
+        background-size: cover;
+        background-position: center center;
+    margin: -100px auto 0px; 
+    border: rgba(212, 242, 250, 0.966) double 10px;
+        border-radius: 50%;
+
+    height: 250px;
+    width: 250px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.occupation {
+    /*border: solid black 2px;*/
+    opacity: 0.7;
+    font-weight: 300;
+        font-size: 18px;
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+}
+
+.description {
+    /*border: solid black 2px;*/
+    font-weight: 400;
+        font-size: 18px;
+    text-align: center;
+    margin: 5px;
+}
+
+.tags {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tag0, .tag1, .tag2, .tag3 {
+    display: inline-block;
+    background-color: rgba(219, 225, 226, 0.733);
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.Profile_info {
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#item1, #item2, #item3 {
+    text-align: center;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button1, .button2 {
+    padding: 0px 20px;
+    margin: 0px 20px;
+    width: 25vh;
+    height: 5vh;
+
+    position: relative;
+
+    border: none;
+    border-radius: 15px;
+
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.button1:hover, 
+button.button2:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+button.button1 a, 
+button.button2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.button1 {
+    left: -20px;
+    background-image: 
+        linear-gradient(315deg, #cadef7, #4a90d1);
+}
+
+.button2 {
+    left: 20px;
+    background-image: 
+        linear-gradient(45deg, #cadef7, #4a90d1);
+}
